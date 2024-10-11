@@ -71,7 +71,6 @@ PawsClawsPetStore/
 ## 2. **Starting from Last Week's Data**
 In this step, you will build upon the variables you created in last week's assignment. You will begin with the variables in your `index.js` file, which represent your store's name, products, prices, and store hours. The goal for this step is to remove the `console.log()` statements temporarily and focus on how to structure your data more efficiently for later use.
 
-Your folder name may vary based on your selection of the eCommerce store type. 
 
 ### Example from Last Week (OTJ-1)
 
