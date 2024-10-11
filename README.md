@@ -3,7 +3,7 @@
 
 ## Project Description 📄
 
-Welcome back to your **JavaScript Essentials** "On The Job" project! This week, you’ll build on the concepts from last time by learning how to work with **arrays** to manage and display dynamic data. Arrays are crucial for handling lists of items—whether products, tasks, or messages—and this project will help you understand how to manipulate and update these data sets effectively.
+Welcome back to your **JavaScript Essentials** "On the Job" project! This week, you’ll build on the concepts from last time by learning how to work with **arrays** to manage and display dynamic data. Arrays are crucial for handling lists of items—whether products, tasks, or messages—and this project will help you understand how to manipulate and update these data sets effectively.
 
 In this project, you will:
   - **Create arrays** that store products and their details.
@@ -46,11 +46,11 @@ Use AI tools such as ChatGPT and Claude to help you learn. As you integrate AI t
 ## Getting Started 📄
 In this assignment, you'll build the foundational logic that powers behind-the-scenes systems for generating dynamic emails in an eCommerce store. You'll use JavaScript **arrays** to manage product inventory, add new stock, remove unavailable items, and highlight featured products. By the end, you'll generate a dynamic message, just like the automated emails sent to customers, keeping them updated on your store's products, prices, and hours. This hands-on project mirrors real-world eCommerce tasks, giving you essential skills for managing dynamic data efficiently.
 
-## Expected Project Structure 🏗️
+## Project Structure from Last Week 🏗️
 Your folder name may vary based on your selection of the eCommerce store type.
 
 ```plaintext
-PawsClawsPetStore_2/
+PawsClawsPetStore/
 │
 ├── index.js
 ├── README.md
@@ -58,14 +58,15 @@ PawsClawsPetStore_2/
 
 ## Deliverables ✅
 
-## 1. **Create the Project Folder and Files**
-  Again, Your folder name may vary based on your selection of the eCommerce store type.
+## 1. **Locate and Navigate to Your Project Folder**
 
-  - [ ] Create a folder named `PawsClawsPetStore_2` to store all your project files.
+  You should locate the folder where you saved last week’s project and continue working from there. No need to start a new project from scratch.
   
-  - [ ] Now `cd` into that new folder you created.
-   
-  - [ ] Inside the `PawsClawsPetStore_2` folder, create a file named `index.js`. This will be your main JavaScript file.
+  - [ ] Find and navigate to the folder from last week's project, for example: `PawsClawsPetStore` or the folder you named based on your client.
+  
+  - [ ] `cd` into that folder from the terminal to access your project code.
+
+  - [ ] Inside this folder, continue working in your existing `index.js` file, which you set up last week.
 
 ## 2. **Starting from Last Week's Data**
 In this step, you will build upon the variables you created in last week's assignment. You will begin with the variables in your `index.js` file, which represent your store's name, products, prices, and store hours. The goal for this step is to remove the `console.log()` statements temporarily and focus on how to structure your data more efficiently for later use.
@@ -74,7 +75,9 @@ Your folder name may vary based on your selection of the eCommerce store type.
 
 ### Example from Last Week (OTJ-1)
 
-- [ ] Retrieve your variable code from the last OTJ assignment
+- [ ] Review your `index.js` variable code from the last OTJ assignment.
+
+- [ ]Remove the `console.log()` statements for now. The variables will be used later to manage and manipulate the store's inventory dynamically.
 
 **Remember, your code may vary. Below is an example from last week's OTJ-1 assignment.**
 
@@ -97,7 +100,6 @@ const price5 = 34.50;
 const storeHours = "Monday - Friday: 9 AM - 6 PM, Saturday: 10 AM - 4 PM, Sunday: Closed";
 ```
 
-- [ ] In this step, remove the `console.log()` statements for now. These variables will later be used to manage and manipulate the store's inventory dynamically.
 
 ---
 
@@ -109,7 +111,7 @@ We’ll start by **logging the store details** to the console, preparing to prov
 
 ### Example Code for Step Three:
 
-- [ ] Use `console.log()` to display a message introducing your store
+- [ ] Use `console.log()` to display a message introducing your store.
 
 **Remember, your code will vary based on your selection of the eCommerce store type and your specific variable names.**
 
@@ -132,7 +134,7 @@ In this step, we will build arrays from the variables representing your products
 
 ### Example Code for Step Four:
 
-- [ ] Build arrays from the variables you previously created
+- [ ] Build arrays from the variables you previously created.
 
 **Again, your code may vary based on your selection of the eCommerce store type and your specific variable names.**
 
@@ -160,7 +162,7 @@ In this step, we will use the `push` method to add a new product and its price t
 
 ### Example Code for Step Five:
 
-- [ ] Use the `push` method to add a new product to your store
+- [ ] Use the `push` method to add a new product to your store.
 
 **Your code may vary based on your selection of the eCommerce store type and the specific variable names you've used, but the push method will remain the same in structure**
 
@@ -184,7 +186,7 @@ In this step, we’ll simulate a situation where a product goes out of stock and
 
 ### Example Code for Step Six:
 
-- [ ] Use the `pop` method to remove a product from your store
+- [ ] Use the `pop` method to remove a product from your store.
 
 **Your code may look slightly different depending on the eCommerce store type you chose and how you’ve named your variables, but the pop method will remain the same in structure.**
 
@@ -210,7 +212,7 @@ In this step, we’ll select a few **featured products** to highlight in the mes
 
 ### Example Code for Step Seven:
 
-- [ ] Use the `slice` method to select a subset of products from your array
+- [ ] Use the `slice` method to select a subset of products from your array.
 
 **Your code may vary based on your chosen eCommerce store type and how you've named your variables, but the concept of using `slice` to select featured items will be the same.**
 
@@ -323,25 +325,25 @@ By running your code and reviewing the output, you've successfully simulated the
 
 
 ## 11. **Pushing Your Code to GitHub**
-In this section, you will save your project to a GitHub repository, which allows you to store your code online, collaborate with others, and keep track of changes over time.
 
-- [ ]  Initialize Git, add all files, and commit your work:
+In this section, you will save your updated project to the **existing GitHub repository** you created last week. This allows you to continue storing your code online, collaborate with others, and keep track of changes over time.
+
+- [ ] Add all files and commit your work:
 
 ```bash
-git init
 git add .
-git commit -m "Initial commit: Your commit message here"
-
+git commit -m "Your commit message here"
 ```
 
-- [ ]  Push your work to GitHub:
+- [ ] Push your work to the existing GitHub repository:
 
 ```bash
-git remote add origin [your-repo-url]
-git push -u origin main
-
+git push origin main
 ```
-## 
+
+This will push your changes to the repository you set up last week, without needing to reinitialize or create a new repository.
+
+---
 
 # Conclusion 📄
 
