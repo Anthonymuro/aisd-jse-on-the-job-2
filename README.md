@@ -97,7 +97,7 @@ const price5 = 34.50;
 const storeHours = "Monday - Friday: 9 AM - 6 PM, Saturday: 10 AM - 4 PM, Sunday: Closed";
 ```
 
-In this step, remove the `console.log()` statements for now. These variables will later be used to manage and manipulate the store's inventory dynamically.
+- [ ] In this step, remove the `console.log()` statements for now. These variables will later be used to manage and manipulate the store's inventory dynamically.
 
 ---
 
