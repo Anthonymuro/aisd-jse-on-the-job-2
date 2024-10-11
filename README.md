@@ -76,7 +76,7 @@ In this step, you will build upon the variables you created in last week's assig
 
 - [ ] Review your `index.js` variable code from the last OTJ assignment.
 
-- [ ]Remove the `console.log()` statements for now. The variables will be used later to manage and manipulate the store's inventory dynamically.
+- [ ] Remove the `console.log()` statements for now. The variables will be used later to manage and manipulate the store's inventory dynamically.
 
 **Remember, your code may vary. Below is an example from last week's OTJ-1 assignment.**
 
