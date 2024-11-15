@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paws & Claws-Your Trusted Pet Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+      header {
+        background-color: #ff9800;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      nav {
+        background-color: #ffa726;
+        padding: 0.5rem;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        margin: 0 1rem;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .banner {
+        background: url("https://via.placeholder.com/1920x500") no-repeat center
+          center/cover;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 2px 2px 5px #000;
+      }
+      .banner h1 {
+        font-size: 3rem;
+      }
+      .section-title {
+        text-align: center;
+        margin: 2rem 0 1rem;
+      }
+      .products,
+      .services {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 1rem;
+      }
+      .card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 250px;
+        text-align: center;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      footer {
+        background-color: #ff9800;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pet Paradise</h1>
+      <p>Your one-stop shop for happy pets!</p>
+    </header>
+
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="banner">
+      <h1>Welcome to Pet Paradise</h1>
+    </div>
+
+    <section id="products">
+      <h2 class="section-title">Our Products</h2>
+      <div class="products">
+        <div class="card">
+          <img src="https://via.placeholder.com/250" alt="Dog Food" />
+          <h3>Premium Dog Food</h3>
+          <p>$25.99</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/250" alt="Cat Toys" />
+          <h3>Cat Toys</h3>
+          <p>$15.99</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/250" alt="Fish Tank" />
+          <h3>Fish Tank</h3>
+          <p>$49.99</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services">
+        <div class="card">
+          <h3>Pet Grooming</h3>
+          <p>Professional grooming to keep your pet happy and healthy.</p>
+        </div>
+        <div class="card">
+          <h3>Veterinary Care</h3>
+          <p>Experienced vets to take care of your pets' health.</p>
+        </div>
+        <div class="card">
+          <h3>Training Classes</h3>
+          <p>Learn to train your pet with our expert trainers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <p style="text-align: center">
+        Email: info@petparadise.com | Phone: (123) 456-7890
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Pet Paradise. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
